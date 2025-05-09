@@ -111,7 +111,7 @@ python main.py
 
 Train and evaluate the ML sentiment model:
 ```bash
-python src/ml/sentiment_model.py --num_samples 10 --cpus_per_trial 2
+python sentiment_model.py --num_samples 10 --cpus_per_trial 2
 ```
 
 Visualize the ML model results:
